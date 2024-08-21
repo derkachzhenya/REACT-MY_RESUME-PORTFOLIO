@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/Yevhen.webp";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -41,7 +41,7 @@ const Hero = () => {
                         <motion.img initial={{ x: 100, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ delay: 1.2, duration: 1 }}
-                            src={profilePic} alt="Yevhen Derkach" className="w-full h-full object-cover" />
+                            src={profilePic} alt="Yevhen Derkach" className="w-full h-full object-cover rounded-xl" />
                     </div>
                 </div>
             </div>
