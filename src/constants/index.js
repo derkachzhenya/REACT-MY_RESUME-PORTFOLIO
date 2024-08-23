@@ -3,38 +3,46 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Passionate PHP Full-Stack Developer with a Knack for Crafting Robust and Scalable Solutions
+As a seasoned full-stack developer with 4 years of hands-on experience, I have honed my skills across the technology stack. My expertise spans front-end frameworks like Laravel, Tailwind, and Vue.js, as well as back-end technologies including PHP, MySQL, and React.
+I am driven by a passion for creating innovative web applications that drive business growth and deliver exceptional user experiences. By leveraging the power of PHP and complementing frameworks, I build robust, scalable, and user-friendly solutions.
+Throughout my career, I have developed a keen eye for detail and a strong commitment to writing clean, maintainable code. My proficiency in PHP, Laravel, Tailwind, Bootstrap, MySQL, Vue.js, and React allows me to approach projects holistically, seamlessly bridging the gap between the front-end and back-end.
+My portfolio on GitHub showcases the diversity of my projects, highlighting my ability to tackle complex challenges and deliver high-performing applications. I am excited to leverage my full-stack expertise to contribute to innovative and impactful initiatives that drive success for your organization.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `Here is a more detailed summary about you:
+I am an ambitious and driven individual who is passionate about web development. I chose to focus my studies on the Laravel framework because of the extensive ecosystem of libraries and tools it provides, which allow for the rapid development of robust and scalable web applications.
+One of my key strengths is my ability to learn new technologies and programming languages quickly. I regularly attend courses and workshops to continually expand my knowledge and stay up-to-date with the latest industry trends and best practices. This commitment to ongoing learning ensures that I am always bringing fresh skills and ideas to the table.
+In addition to my technical prowess, I'm also a strong team player. I excel at collaborating with others and taking on multiple roles and responsibilities simultaneously. My flexibility and adaptability allow me to contribute to projects in a variety of ways, whether that's leading the development of a new feature or providing support to my colleagues.
+Overall, I believe that my combination of technical expertise, eagerness to learn, and collaborative mindset make me an excellent candidate for web development roles. I am confident that I can quickly ramp up and make valuable contributions to any team or project I'm involved with.`;
+
+export const EDUCATION = [
+  {
+    year: "2006 - 2009",
+    role: "PHP developer",
+    description: ` Novokachovskiy college`,
+  },
+  {
+    year: "2010 - 2015",
+    role: "Machine Engineering",
+    description: `Kherson National Technical University`,
+  },
+];
+
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2023 - 2024",
+    role: "Full Stack developer",
+    company: "Cool Orca LTD.",
+    description: `Worked in a team developing and maintaining web applications using PHP,  Laravel, and Vue. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    technologies: ["HTML", "CSS", "PHP", "Vue.js", "React", "JavaScript", "MySQL", "GitHub", "AWS"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2020 - 2023",
+    role: "Full Stack Web developer",
+    company: "Freelance",
+    description: `Experienced Full Stack Developer with in-depth knowledge of PHP, Laravel, and Vue.js. Specializing in building high-performance web applications using cutting-edge technologies and best development practices.`,
+    technologies: ["HTML", "CSS", "PHP", "Vue.js", "React", "MySQL", "GitHub", "AWS"],
   },
 ];
 
@@ -44,28 +52,28 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["HTML", "PHP", "Laravel", "React", "Tailwind css", "MySql"],
   },
   {
     title: "Task Management App",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["HTML", "PHP", "Laravel", "Vue", "MySql", "GitHub", "AWS"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "PHP", "Laravel", "Bootstrap", "MySql", "GitHub"],
   },
   {
     title: "Blogging Platform",
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["PHP", "Laravel", "Vue", "Tailwind css", "mySQL", "GitHub", "AWS"],
   },
 ];
 

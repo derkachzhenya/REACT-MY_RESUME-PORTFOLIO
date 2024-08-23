@@ -5,6 +5,7 @@ import { FaVuejs } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { FaAws } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -81,6 +82,13 @@ const Technologies = () => {
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
                     <FaGithub className="text-7xl text-white" />
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(5)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <FaAws className="text-7xl text-white" />
                 </motion.div>
             </motion.div>
         </div>
