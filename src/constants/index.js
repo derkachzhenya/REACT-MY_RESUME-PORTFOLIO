@@ -3,17 +3,29 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `Passionate PHP Full-Stack Developer with a Knack for Crafting Robust and Scalable Solutions
-As a seasoned full-stack developer with 4 years of hands-on experience, I have honed my skills across the technology stack. My expertise spans front-end frameworks like Laravel, Tailwind, and Vue.js, as well as back-end technologies including PHP, MySQL, and React.
-I am driven by a passion for creating innovative web applications that drive business growth and deliver exceptional user experiences. By leveraging the power of PHP and complementing frameworks, I build robust, scalable, and user-friendly solutions.
-Throughout my career, I have developed a keen eye for detail and a strong commitment to writing clean, maintainable code. My proficiency in PHP, Laravel, Tailwind, Bootstrap, MySQL, Vue.js, and React allows me to approach projects holistically, seamlessly bridging the gap between the front-end and back-end.
-My portfolio on GitHub showcases the diversity of my projects, highlighting my ability to tackle complex challenges and deliver high-performing applications. I am excited to leverage my full-stack expertise to contribute to innovative and impactful initiatives that drive success for your organization.`;
+export const HERO_CONTENT = `I am a full-stack developer specializing in building fast, scalable, and secure web applications using Laravel, Vue.js, MySQL, and modern DevOps tools.
 
-export const ABOUT_TEXT = `Here is a more detailed summary about you:
-I am an ambitious and driven individual who is passionate about web development. I chose to focus my studies on the Laravel framework because of the extensive ecosystem of libraries and tools it provides, which allow for the rapid development of robust and scalable web applications.
-One of my key strengths is my ability to learn new technologies and programming languages quickly. I regularly attend courses and workshops to continually expand my knowledge and stay up-to-date with the latest industry trends and best practices. This commitment to ongoing learning ensures that I am always bringing fresh skills and ideas to the table.
-In addition to my technical prowess, I'm also a strong team player. I excel at collaborating with others and taking on multiple roles and responsibilities simultaneously. My flexibility and adaptability allow me to contribute to projects in a variety of ways, whether that's leading the development of a new feature or providing support to my colleagues.
-Overall, I believe that my combination of technical expertise, eagerness to learn, and collaborative mindset make me an excellent candidate for web development roles. I am confident that I can quickly ramp up and make valuable contributions to any team or project I'm involved with.`;
+Over the past 6 years, I've developed e-commerce platforms, CRM/ERP systems, analytics dashboards, task-management tools, and high-traffic content websites — handling both backend architecture and frontend development.
+
+
+
+I focus on clean architecture, maintainable code, API design, performance optimization, and smooth user experience. I stay up to date with 2025 best practices: Laravel Octane, queues & jobs, advanced caching strategies (Redis, Cloudflare), SPA development, component-driven UI, Dockerized workflows, CI/CD automation, and cloud deployment.
+
+
+
+I'm seeking a full-time or remote opportunity where I can contribute my experience, deliver high-quality software, and help teams build scalable digital products.`;
+
+export const ABOUT_TEXT = `I am a motivated and detail-oriented full-stack PHP developer with strong experience in Laravel and Vue.js. I enjoy solving complex problems, improving system performance, and writing clean, production-ready code. Over the years, I've worked on projects that required database design, API integration, UI development, deployment automation, and long-term support.
+
+
+
+I continuously learn new tools and stay updated with modern engineering practices, including testing (PHPUnit, Pest), event-driven development, queue systems, RESTful API standards, Docker environments, and cloud hosting on AWS.
+
+I work effectively in agile teams, communicate clearly, and take ownership of tasks from planning to deployment.
+
+
+
+My goal is to join a forward-thinking company where I can contribute to meaningful projects and grow as an engineer.`;
 
 export const EDUCATION = [
   {
@@ -31,6 +43,15 @@ export const EDUCATION = [
 
 export const EXPERIENCES = [
   {
+    year: "2025",
+    role: "Founder & Full-Stack Developer",
+    company: "FijiEco",
+    description: `Built and launched a high-performance travel platform from scratch, reaching over 1,000 daily users and ranking on Google for competitive keywords within the first four months. Designed the system architecture, database structure, API endpoints, content workflows, front-end components, and deployment pipelines.
+
+Key achievements: Developed a scalable web platform using Laravel 12, Vue.js 3, Inertia.js, Tailwind CSS, MySQL, and Cloudflare for performance optimization. Implemented dynamic content management, reusable UI components, multilingual support, SEO-optimized routing, JSON-LD structured data, and Open Graph automation. Designed custom admin panel modules using FilamentPHP, including articles, destinations, categories, and media management. Achieved 95+ Lighthouse performance scores on many pages through image optimization, caching strategies, and Cloudflare CDN configuration. Automated deployment using GitHub Actions, Docker containers, and NGINX on an Ubuntu server. Improved page load speed by optimizing database queries, caching (Redis), preloading assets, and configuring Cloudflare Full Page Cache. Built data-driven analytics logic and integrated RUM metrics to monitor user performance. Applied modern SEO practices (canonical URLs, meta-generation, sitemap automation, structured metadata) to grow organic traffic.`,
+    technologies: ["Laravel", "Vue.js", "Inertia.js", "Tailwind", "MySQL", "Redis", "Filament", "Docker", "GitHub Actions", "Cloudflare", "NGINX", "Ubuntu", "SEO", "Web Performance Optimization"],
+  },
+  {
     year: "2023 - 2024",
     role: "Full Stack developer",
     company: "Cool Orca LTD.",
@@ -45,6 +66,69 @@ export const EXPERIENCES = [
     technologies: ["HTML", "CSS", "PHP", "Vue.js", "React", "MySQL", "GitHub", "AWS"],
   },
 ];
+
+export const SKILLS_UPGRADE_2025 = {
+  title: "2025 Skills Upgrade",
+  subtitle: "Professional Growth & Skill Development",
+  introduction: "In 2025, I focused on sharpening my technical skills, improving development efficiency, and adopting modern engineering practices that help deliver scalable, secure, and high-performance applications.",
+  categories: [
+    {
+      category: "Backend & Architecture",
+      items: [
+        "Adopted Laravel 12 with improved routing, caching, queue systems, and architectural patterns",
+        "Implemented domain-driven structure for cleaner project organization and maintainability",
+        "Optimized databases using advanced indexing, query refactoring, eager loading, and caching",
+        "Introduced Redis caching strategies (tag-based cache invalidation, query caching, page caching)",
+        "Worked with Laravel Octane principles to understand high-performance PHP applications"
+      ]
+    },
+    {
+      category: "Frontend Development",
+      items: [
+        "Deepened experience with Vue.js 3 + Composition API",
+        "Improved SPA architecture with Inertia.js for seamless page transitions",
+        "Built reusable UI components in Tailwind CSS with responsive and accessible design",
+        "Adopted component-driven and atomic UI design patterns"
+      ]
+    },
+    {
+      category: "Performance Optimization",
+      items: [
+        "Achieved 95+ Lighthouse scores on core pages",
+        "Reduced page load times using image optimization, lazy loading, preload strategies, and HTTP/2 features",
+        "Improved TTFB by optimizing server configuration, caching, and database queries",
+        "Configured Cloudflare Full Page Cache, APO techniques, and edge caching rules"
+      ]
+    },
+    {
+      category: "DevOps & Infrastructure",
+      items: [
+        "Built automated CI/CD pipelines using GitHub Actions (deployments, tests, builds)",
+        "Worked with Docker containers for local development and staging environments",
+        "Set up NGINX+Ubuntu production infrastructure with optimized configuration",
+        "Integrated monitoring tools and RUM performance metrics",
+        "Adopted secure deployment practices (SSH, environment separation, secrets management)"
+      ]
+    },
+    {
+      category: "SEO & Organic Growth",
+      items: [
+        "Automated generation of meta tags, canonical links, structured JSON-LD metadata",
+        "Built dynamic sitemaps and improved crawlability",
+        "Increased organic traffic through performance, content structure, and internal linking strategy"
+      ]
+    },
+    {
+      category: "Soft & Professional Skills",
+      items: [
+        "Improved communication in English with native speakers",
+        "Learned to write clearer documentation and task planning",
+        "Strengthened problem-solving and debugging approach",
+        "Became more comfortable working with full product ownership"
+      ]
+    }
+  ]
+};
 
 export const PROJECTS = [
   {
@@ -77,8 +161,27 @@ export const PROJECTS = [
   },
 ];
 
+export const TECHNOLOGIES = [
+  {
+    category: "Backend",
+    items: ["Laravel", "PHP 8+", "MySQL", "Redis", "Eloquent ORM", "REST APIs", "Authentication & RBAC", "Queues & Jobs", "Laravel Octane"]
+  },
+  {
+    category: "Frontend",
+    items: ["Vue.js 3", "Composition API", "JavaScript (ES2020+)", "Tailwind CSS", "Bootstrap", "SPA routing"]
+  },
+  {
+    category: "DevOps & Tools",
+    items: ["Docker", "GitHub Actions (CI/CD)", "AWS (EC2, S3, RDS)", "Nginx", "Linux server administration"]
+  },
+  {
+    category: "Other Skills",
+    items: ["Clean Architecture", "SOLID", "Testing (PHPUnit / Pest)", "Performance Optimization", "Caching Strategies", "API Integrations"]
+  }
+];
+
 export const CONTACT = {
-  address: "6B Novooskolska Avenue, Irpin, Ukraine 08200 ",
-  phoneNo: "+38 095 867 894 1 ",
+  address: "Kyiv Region, Ukraine (GMT+2)",
+  phoneNo: "+380687401354",
   email: "derkachyevhen@gmail.com",
 };
