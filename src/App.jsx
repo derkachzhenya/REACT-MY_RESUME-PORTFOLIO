@@ -4,8 +4,6 @@ import About from "./components/About";
 import Technologies from "./components/Technologies";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
-import SkillsUpgrade from "./components/SkillsUpgrade";
-import Project from "./components/Project";
 import Contact from "./components/Contact";
 
 const App = () => {
@@ -25,8 +23,6 @@ const App = () => {
         <Technologies />
         <Education />
         <Experience />
-        <SkillsUpgrade />
-        <Project />
         <Contact />
       </div>
     </div>
