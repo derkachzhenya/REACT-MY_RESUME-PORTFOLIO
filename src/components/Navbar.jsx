@@ -13,12 +13,12 @@ const Navbar = () => {
                 <a href="https://github.com/derkachzhenya" target="_blank" rel="noopener noreferrer">
                     <FaGithub />
                 </a>
-                <a href="https://www.facebook.com/zhenya.derkach/" target="_blank" rel="noopener noreferrer">
+                {/* <a href="https://www.facebook.com/zhenya.derkach/" target="_blank" rel="noopener noreferrer">
                     <FaFacebook />
                 </a>
                 <a href="https://www.instagram.com/derkach_yevhen/" target="_blank" rel="noopener noreferrer">
                     <FaInstagram />
-                </a>
+                </a> */}
             </div>
         </nav>
     );
