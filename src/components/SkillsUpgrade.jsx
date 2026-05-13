@@ -47,3 +47,4 @@ const SkillsUpgrade = () => {
 
 export default SkillsUpgrade;
 
+

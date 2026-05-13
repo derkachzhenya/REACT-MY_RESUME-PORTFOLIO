@@ -182,6 +182,5 @@ export const TECHNOLOGIES = [
 
 export const CONTACT = {
   address: "Kyiv Region, Ukraine (GMT+2)",
-  phoneNo: "+380687401354",
   email: "derkachyevhen@gmail.com",
 };
