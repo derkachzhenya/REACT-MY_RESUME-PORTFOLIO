@@ -3,17 +3,11 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a full-stack developer specializing in building fast, scalable, and secure web applications using Laravel, Vue.js, MySQL, and modern DevOps tools.
+export const HERO_CONTENT = `Full-stack Laravel developer focused on scalable web applications, SEO-driven platforms and production infrastructure.
 
-Over the past 6 years, I've developed e-commerce platforms, CRM/ERP systems, analytics dashboards, task-management tools, and high-traffic content websites — handling both backend architecture and frontend development.
+Experienced with Laravel, Vue.js, Docker, Redis, NGINX, CI/CD workflows and performance optimization.
 
-
-
-I focus on clean architecture, maintainable code, API design, performance optimization, and smooth user experience. I stay up to date with 2025 best practices: Laravel Octane, queues & jobs, advanced caching strategies (Redis, Cloudflare), SPA development, component-driven UI, Dockerized workflows, CI/CD automation, and cloud deployment.
-
-
-
-I'm seeking a full-time or remote opportunity where I can contribute my experience, deliver high-quality software, and help teams build scalable digital products.`;
+Currently building FijiEco - a production travel platform powered by Laravel and modern deployment architecture.`;
 
 export const ABOUT_TEXT = `I am a motivated and detail-oriented full-stack PHP developer with strong experience in Laravel and Vue.js. I enjoy solving complex problems, improving system performance, and writing clean, production-ready code. Over the years, I've worked on projects that required database design, API integration, UI development, deployment automation, and long-term support.
 
