@@ -34,9 +34,11 @@ export const EXPERIENCES = [
     year: "2025",
     role: "Founder & Full-Stack Developer",
     company: "FijiEco",
-    description: `Built and launched a high-performance travel platform from scratch, reaching over 1,000 daily users and ranking on Google for competitive keywords within the first four months. Designed the system architecture, database structure, API endpoints, content workflows, front-end components, and deployment pipelines.
+    description: `Built and maintain a production travel platform using Laravel, Vue.js and Docker infrastructure.
 
-Key achievements: Developed a scalable web platform using Laravel 12, Vue.js 3, Inertia.js, Tailwind CSS, MySQL, and Cloudflare for performance optimization. Implemented dynamic content management, reusable UI components, multilingual support, SEO-optimized routing, JSON-LD structured data, and Open Graph automation. Designed custom admin panel modules using FilamentPHP, including articles, destinations, categories, and media management. Achieved 95+ Lighthouse performance scores on many pages through image optimization, caching strategies, and Cloudflare CDN configuration. Automated deployment using GitHub Actions, Docker containers, and NGINX on an Ubuntu server. Improved page load speed by optimizing database queries, caching (Redis), preloading assets, and configuring Cloudflare Full Page Cache. Built data-driven analytics logic and integrated RUM metrics to monitor user performance. Applied modern SEO practices (canonical URLs, meta-generation, sitemap automation, structured metadata) to grow organic traffic.`,
+Responsible for backend architecture, deployment workflows, SEO optimization, caching strategies and performance improvements.
+
+Implemented CI/CD pipelines, Redis caching, Cloudflare optimization, queue workers and scalable content management systems.`,
     technologies: ["Laravel", "Vue.js", "Inertia.js", "Tailwind", "MySQL", "Redis", "Filament", "Docker", "GitHub Actions", "Cloudflare", "NGINX", "Ubuntu", "SEO", "Web Performance Optimization"],
   },
   {
