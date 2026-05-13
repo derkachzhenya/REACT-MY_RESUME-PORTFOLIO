@@ -9,17 +9,11 @@ Experienced with Laravel, Vue.js, Docker, Redis, NGINX, CI/CD workflows and perf
 
 Currently building FijiEco - a production travel platform powered by Laravel and modern deployment architecture.`;
 
-export const ABOUT_TEXT = `I am a motivated and detail-oriented full-stack PHP developer with strong experience in Laravel and Vue.js. I enjoy solving complex problems, improving system performance, and writing clean, production-ready code. Over the years, I've worked on projects that required database design, API integration, UI development, deployment automation, and long-term support.
+export const ABOUT_TEXT = `I build and maintain production-ready Laravel applications with focus on backend architecture, infrastructure and performance.
 
+Worked on SEO platforms, CMS systems, dashboards and custom business applications using Laravel, Vue.js, MySQL and Docker.
 
-
-I continuously learn new tools and stay updated with modern engineering practices, including testing (PHPUnit, Pest), event-driven development, queue systems, RESTful API standards, Docker environments, and cloud hosting on AWS.
-
-I work effectively in agile teams, communicate clearly, and take ownership of tasks from planning to deployment.
-
-
-
-My goal is to join a forward-thinking company where I can contribute to meaningful projects and grow as an engineer.`;
+Interested in scalable systems, clean architecture, deployment workflows and modern web performance practices.`;
 
 export const EDUCATION = [
   {
